@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(290,50%,90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding-top: 100px;
+}
+
+
+h1{
+    color: hsl(290,80%,30%);
+
+}
+
+.pass{
+    width: 25%;
+    height: 60px;
+    padding: 10px 20px;
+    border: 3px solid hsl(290,80%,60%);
+    border-radius: 10px;
+    margin-block: 20px;
+    outline: none;
+    font-size: 20px;
+    color: green;
+    transition: all 0.4s;
+}
+.pass:hover , 
+.pass:focus{
+    box-shadow: 0 0 10px hsl(290,80%,60%);
+}
+
+.hint{
+    display: none;
+    font-size: 20px;
+    color: hsl(290,80%,60%);
+}
+
+.invalid{
+    color: red;
+}
+
+.block{
+    display: block;
+}
+
+.btn{
+    width: 10%;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: hsl(290,80%,30%);
+    color: hsl(290,80%,70%);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition:all 0.4s;
+}
+.btn:hover{
+    background-color: hsl(290,80%,70%);
+    color:hsl(290,80%,30%) ;
+}
